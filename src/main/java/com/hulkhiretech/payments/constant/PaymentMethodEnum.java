@@ -7,7 +7,9 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public enum PaymentMethodEnum {
 
-	APM(1, "APM");
+	CARD(1, "card"),
+	UPI(2, "upi");
+	
 	
 	private int id;
 	private String name;
